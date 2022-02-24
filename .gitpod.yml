@@ -1,0 +1,8 @@
+tasks:
+  - name: Install node 10 and @vue/cli
+    before: nvm install lts/dubnium && npm install -g @vue/cli
+    command: echo "node version is $(node -v)"
+
+vscode:
+  extensions:
+    - octref.vetur
