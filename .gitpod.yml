@@ -1,6 +1,6 @@
 tasks:
   - name: Install node 10 and @vue/cli
-    before: nvm install lts/dubnium && npm install -g @vue/cli
+    before: nvm install lts/dubnium && npm install -g @vue/cli@3.7.0
     command: echo "node version is $(node -v)"
 
 vscode:
